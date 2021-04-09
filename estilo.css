@@ -111,6 +111,11 @@ text-align: center;
 margin-bottom: 5px;
 }
 
+footer a{
+    text-decoration: underline;
+    color: white;
+}
+
 
 @media (max-width: 390px){
     .button{
