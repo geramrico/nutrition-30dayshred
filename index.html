@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THUNDRBRO - Calorie Calculator</title>
+
+
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="content">
+        <a href="https://thundrbro.com/" target="_blank"><img
+                src="https://scontent.fslw1-1.fna.fbcdn.net/v/t1.6435-9/109423345_161618462123958_5648169077976230425_n.png?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=hxUhZmUn3zsAX--li06&_nc_ht=scontent.fslw1-1.fna&oh=2ed69d990c10be38b1b2f98b4e0ad7b7&oe=60953CBF"
+                alt=""></a>
+
+
+        <h1>Nutrition</h1>
+
+
+        <span class="input-title">Bodyweight [lbs]</span>
+        <input type="number" name="weight" id="weight" min="50" max="600">
+
+
+        <div class="button">
+            <input type="submit" onclick="calories()" value="Get Shredded" id="calc">
+            <input type="submit" onclick="reset()" value="Reset" id="reset">
+        </div>
+
+
+        <div class="results">
+            <!-- RESULTS GO HERE AFTER CALCULATION -->
+        </div>
+    </div>
+
+
+<footer>Made by <a href="https://www.twitter.com/geramrico" target="_blank">Gera</a></footer>
+</body>
+
+</html>
